@@ -1,0 +1,116 @@
+.box{
+    text-align: center;
+    color: white;
+}
+.box {
+    padding: 40px;
+    margin: -10px;
+}
+.about {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.about img {
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.about p {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 2;
+    margin-right: 100px;
+}
+
+.feedback {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.feedback h2 {
+    margin-bottom: 10px;
+}
+
+.feedback p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.feedback textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.feedback button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback button:hover {
+    background-color: darkgreen;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form {
+    width: 300px;
+    margin: 50px auto; /* center horizontally */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: darkblue;
+}
